@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+        const secondsInAnMinute = 60
+        const minutesInAnHour = 60
+        const secondsInAnHour = secondsInAnMinute * minutesInAnHour
+        console.log(secondsInAnHour)
+        
+        const hoursInADay = 24
+        const secondsInADay = hoursInADay * secondsInAnHour
+        console.log(secondsInADay)
+        
+        const daysInAYear = 365
+        const secondsInAYear = secondsInADay * daysInAYear
+        console.log(secondsInAYear)
+        
+        const age = 29
+        console.log(age * secondsInAYear)
+        
+        const age = 23
+        console.log(age * secondsInAYear)
+        
+        // Завдання 2
+        let sayHello = 0
+        console.log(++sayHello)
+        console.log(++sayHello)
+        console.log(--sayHello)
+        
+        // Завдання 3
+        let x = 0 
+        x = x + 5 
+        console.log(x)
+        
+        let score = 10
+        score += 7
+        console.log(score)
+        score -= 3
+        console.log(score)
+        
+        // Завдання 4 
+        const myString = "Мій рядок"
+        
+        const numberNine = 9 
+        const stringNine = "9"
+        
+        console.log(numberNine + numberNine)
+        console.log(stringNine + stringNine)
+        
+        // Завдання 5 
+        const greeting = "Привіт"
+        const name = "Нік"
+        console.log(greeting + name)
+        
+        const greeting2 = "Привіт, "
+        const name2 = "Нік"
+        console.log(greeting2 + name2)
+    </script>
+  </body>
+</html>

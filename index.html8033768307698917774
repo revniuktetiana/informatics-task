@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+        const hadBreakfast = true
+        const hasBackpack = true
+        console.log(hadBreakfast && hasBackpack)
+        
+        const hasApple = true
+        const hasOrange = false
+        console.log(hasApple || hasOrange)
+        
+        const isWeekend = true
+        const needToGoToCollege = !isWeekend
+        console.log(needToGoToCollege)
+        
+        let username
+        if (!username) {
+         username = "Bob"
+        }
+        
+        console.log(username)
+        
+        const username2 = 'John'
+        
+        if(!username) {
+                username2 = "Bob"
+        }
+        
+        console.log(username2)
+        
+        const time = 14
+        
+        if (time ＜ 12) {
+            console.log("Доброго ранку!")
+        } else if (time ＜ 17) {
+            console.log("Добрий день!")
+        } else if (time ＜ 20) {
+            console.log("Добрий вечір!")
+        } else {
+            console.log("Доброї ночі!")
+        }
+    </script>
+  </body>
+</html>

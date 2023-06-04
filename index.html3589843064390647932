@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Мультимедіа на веб-сторінках</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div>
+            <img src="image.jpg." style="float: left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec varius urna, malesuada tempor risus. Ut ut tellus congue, convallis tellus ut, dapibus enim. Sed mollis placerat risus, id malesuada lectus rutrum at. Fusce sed libero vel orci ultrices egestas. Nullam posuere mauris eget malesuada faucibus. Maecenas non ipsum turpis Nulla et sem id tellus fringilla tristique. Phasellus euismod, nisl vel hendrerit porttitor, augue arcu blandit lacus, at imperdiet sapien velit quis risus. Nulla auctor neque sed varius suscipit. Suspendisse potenti. Aliquam ut est quis magna convallis facilisis. Sed sit amet ligula mattis, malesuada sem et, blandit mi. Cras rhoncus rutrum urna. Praesent feugiat malesuada luctus. Suspendisse blandit ac sem id porta. In  blandit, augue vitae pellentesque mattis, turpis mi commodo mauris, at ultricies nisl neque vel ex.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec varius urna, malesuada tempor risus. Ut ut tellus congue, convallis tellus ut, dapibus enim. Sed mollis placerat risus, id malesuada lectus rutrum at. Fusce sed libero vel orci ultrices egestas. Nullam posuere mauris eget malesuada faucibus. Maecenas non ipsum turpis Nulla et sem id tellus fringilla tristique. Phasellus euismod, nisl vel hendrerit porttitor, augue arcu blandit lacus, at imperdiet sapien velit quis risus. Nulla auctor neque sed varius suscipit. Suspendisse potenti. Aliquam ut est quis magna convallis facilisis. Sed sit amet ligula mattis, malesuada sem et, blandit mi. Cras rhoncus rutrum urna. Praesent feugiat malesuada luctus. Suspendisse blandit ac sem id porta. In  blandit, augue vitae pellentesque mattis, turpis mi commodo mauris, at ultricies nisl neque vel ex.</p>
+        </div>
+        <div>
+            <img src="image.jpg." style="float: right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec varius urna, malesuada tempor risus. Ut ut tellus congue, convallis tellus ut, dapibus enim. Sed mollis placerat risus, id malesuada lectus rutrum at. Fusce sed libero vel orci ultrices egestas. Nullam posuere mauris eget malesuada faucibus. Maecenas non ipsum turpis Nulla et sem id tellus fringilla tristique. Phasellus euismod, nisl vel hendrerit porttitor, augue arcu blandit lacus, at imperdiet sapien velit quis risus. Nulla auctor neque sed varius suscipit. Suspendisse potenti. Aliquam ut est quis magna convallis facilisis. Sed sit amet ligula mattis, malesuada sem et, blandit mi. Cras rhoncus rutrum urna. Praesent feugiat malesuada luctus. Suspendisse blandit ac sem id porta. In  blandit, augue vitae pellentesque mattis, turpis mi commodo mauris, at ultricies nisl neque vel ex.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec varius urna, malesuada tempor risus. Ut ut tellus congue, convallis tellus ut, dapibus enim. Sed mollis placerat risus, id malesuada lectus rutrum at. Fusce sed libero vel orci ultrices egestas. Nullam posuere mauris eget malesuada faucibus. Maecenas non ipsum turpis Nulla et sem id tellus fringilla tristique. Phasellus euismod, nisl vel hendrerit porttitor, augue arcu blandit lacus, at imperdiet sapien velit quis risus. Nulla auctor neque sed varius suscipit. Suspendisse potenti. Aliquam ut est quis magna convallis facilisis. Sed sit amet ligula mattis, malesuada sem et, blandit mi. Cras rhoncus rutrum urna. Praesent feugiat malesuada luctus. Suspendisse blandit ac sem id porta. In  blandit, augue vitae pellentesque mattis, turpis mi commodo mauris, at ultricies nisl neque vel ex.</p>
+        </div>
+    <div class="video">
+      <video src="video.mp4." controls loop autoplay muted width="800px">
+      </video>
+    </div>
+    </div>
+  </body>
+</html>

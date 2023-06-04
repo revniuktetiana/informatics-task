@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div>
+        <img 
+            scr="image.jpg" 
+            align="left" 
+            width="200"
+            hspace="10"
+            alt="svg логотип"
+            title="svg логотип"
+            >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in erat quis est volutpat feugiat et eget elit. Donec quis vulputate mauris. Nam nec hendrerit nisl. Quisque elementum tellus tristique augue hendrerit, sed tempus quam maximus. Nunc tempor, nunc ac finibus tristique, odio nibh accumsan risus, sit amet semper turpis est nec metus. Proin ut elit in diam accumsan posuere eget eget risus. Sed eleifend laoreet nibh sed egestas.</p>
+    </div>
+    <div>
+        <img 
+            scr="image.svg" 
+            align="right" 
+            width="200"
+            hspace="10"
+            alt="svg логотип"
+            title="svg логотип"
+            >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in erat quis est volutpat feugiat et eget elit. Donec quis vulputate mauris. Nam nec hendrerit nisl. Quisque elementum tellus tristique augue hendrerit, sed tempus quam maximus. Nunc tempor, nunc ac finibus tristique, odio nibh accumsan risus, sit amet semper turpis est nec metus. Proin ut elit in diam accumsan posuere eget eget risus. Sed eleifend laoreet nibh sed egestas.</p>
+    </div>
+    <div>
+        <img 
+            scr="image.png" 
+            align="left" 
+            width="200"
+            hspace="10"
+            alt="svg логотип"
+            title="svg логотип"
+            >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in erat quis est volutpat feugiat et eget elit. Donec quis vulputate mauris. Nam nec hendrerit nisl. Quisque elementum tellus tristique augue hendrerit, sed tempus quam maximus. Nunc tempor, nunc ac finibus tristique, odio nibh accumsan risus, sit amet semper turpis est nec metus. Proin ut elit in diam accumsan posuere eget eget risus. Sed eleifend laoreet nibh sed egestas.</p>
+    </div>
+  </body>
+</html>

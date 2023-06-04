@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Об'єктивна модель документа</title>
+    </head>
+    <body>
+        <button id="button" onclick="buttonClick()">Кнопка</button>
+        
+        <script>
+            const buttonEl = document.getElementById('button')
+            
+            function buttonClick () {
+                const newElement = document.createElement('h1')
+                document.body.appendChild(newElement)
+                newElement.innerHTML = 'Заголовок'
+        }
+        </script>
+    </body>
+</html>

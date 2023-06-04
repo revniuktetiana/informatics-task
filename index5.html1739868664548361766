@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Об'єктивна модель документа</title>
+    </head>
+    <body>
+        <button id="button" onclick="buttonClick()">Додати заголовок</button>
+        
+        <script>
+            function buttonClick () {
+                const headingElement = document.createElement('h1')
+                
+                const headingText = window.prompt('Введіть новий заголовок:')
+                
+                headingElement.innerHTML = headingText
+                
+                document.body.appendChild(headingElement)
+        }
+        </script>
+    </body>
+</html>

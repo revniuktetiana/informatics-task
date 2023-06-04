@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <img id="image" src="images./photo1.jpg" />
+    </div>
+    <div class="button-box">
+      <button onclick="showPrevPhoto()">prev</button>
+      <button onclick="showNextPhoto()">next</button>
+    </div>
+
+    <script>
+      let photoIndex = 1
+      let photosCount = 4
+      
+      const img = document.getElementById('image')
+      
+      function showNextPhoto () {
+        photoIndex++
+        if (photosCount < photoIndex) photoIndex = 1
+        img.src = 'images./photo' + photoIndex + '.jpg'
+      }
+      
+      function showPrevPhoto () {
+        photoIndex--
+        if (photoIndex < 1) photoIndex = 4
+        img.src = 'images./photo' + photoIndex + '.jpg'
+      }
+    </script>
+  </body>
+</html>

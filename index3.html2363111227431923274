@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Об'єктивна модель документа</title>
+    </head>
+    <body>
+        <p>Кнопка рахує кількість кліків по ній</p>
+        <button id="button" style="width: 100px">0</button>
+        
+        <script>
+        function buttonClick () {
+            const buttonElement = document.getElementById('button')
+            
+            buttonElement.innerText = Number(buttonElement.innerText) + 1
+        }
+        </script>
+    </body>
+</html>

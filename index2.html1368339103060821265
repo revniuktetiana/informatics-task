@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Об'єктивна модель документа</title>
+    </head>
+    <body>
+        <button onclick="alert('Привіт!')">Кнопка</button>
+        <button onclick="buttonClick()">Кнопка 2</button>
+        <input type="text" id="input">
+        
+        <script>
+        function buttonClick () {
+            const input = document.getElementById('input')
+            
+            alert(input.value)
+        }
+        </script>
+    </body>
+</html>

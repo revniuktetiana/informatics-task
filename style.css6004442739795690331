@@ -1,0 +1,21 @@
+body {
+  color: #fff;
+  background: #212122;
+  font-family: 'Calibri', sans-serif;
+}
+
+.container {
+  padding: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 30px;
+}
+
+
+.video {
+  width: 800px;
+  margin: 0 auto 100px;
+}

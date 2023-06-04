@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css.">
+    </head>
+    <body>
+        <form>
+            <div class="account-info"> 
+                <label>
+                    Ім'я користувача
+                    <input type="text" name="username" />
+                </label>
+                <label>
+                    Пароль
+                    <input type="password" name="password" />
+                </label>
+            </div>
+            
+            <div class="account-action">
+                <input class="button" type="submit" name="submit" value="Увійти" />
+                
+                <label>
+                    <input type="checkbox" name="remember" />
+                    Запам'ятати
+                </label>
+            </div>
+        </form>
+    </body>
+</html>

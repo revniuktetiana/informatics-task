@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+        function showMessage() {
+            console.log("Всім привіт!")
+        }
+        
+        showMessage ()
+        showMessage ()
+        showMessage ()
+        
+        
+        let username = "Bob"
+        
+        function showMessage2() {
+            userName = "John"
+            let message = "Привіт, " + userName
+            console.log(message)
+        }
+        
+        showMessage2()
+        console.log(userName)
+        
+        let userName2 = "Bob"
+        
+        function showMessage3() {
+            let userName2 = "John"
+            let message = "Привіт, " + userName2
+            console.log(message)
+        }
+        
+        showMessage3()
+        console.log(userName2)
+        
+        
+        const name = window.prompt("What is your name?")
+        alert("Привіт, " + name)
+    </script>
+  </body>
+</html>
